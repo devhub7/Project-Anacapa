@@ -1,0 +1,234 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:'Century Gothic';
+	font-weight:normal;
+	font-style:normal;
+	font-size:14px;
+	line-height:22px;
+	color:#4e4e4e;
+	background: url('images/body_bg.png') repeat-y scroll 0 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	line-height:1.2;
+	color:#000;
+}
+img {
+	border:none;
+}
+.fix {
+	overflow:hidden;
+}
+.floatleft {
+	float:left;
+}
+.floatright {
+	float:right;
+}
+.alignleft {
+	float:left;
+	margin-right:10px;
+}
+.alignright {
+	float:right;
+	margin-left:10px;
+}
+.aligncenter {
+	display:block;
+	margin: 10px auto;
+}
+.wrapper {
+  background: #c5c5c5 url("images/wrapper_bg.png") repeat-x scroll 0 0;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px 10px 0;
+  width: 940px;
+}
+/*Header Area*/
+.header_area{}
+.header {
+  margin: 10px 0;
+}
+.logo {
+  margin: 0 20px 0 15px;
+}
+.logoright{}
+.logoright h1{
+	font-size:60px;
+}
+.logoright h2 {
+	font-size:15px;
+}
+.header_right{
+	float:right;
+}
+.header_right p{
+	font-size:18px;
+	color:#4e4e4e;
+}
+.socialbookmarks img{
+	float:left;
+}
+#message {
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.socialbookmarks {
+  margin: 15px 10px 10px 110px;
+}
+
+/*Nav Area*/
+.nav_area{}
+.nav {
+  background: rgba(0, 0, 0, 0) url("images/nav.png") repeat-x scroll 0 0;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.nav ul li{
+	float:left;
+	background:url('images/seperator.png') no-repeat scroll right center;
+}
+.nav ul li:last-child{
+	background:none;
+}
+.nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+
+/*Slider Area*/
+.slider_area{}
+.slider{}
+.slider img{
+	width:940px;
+	height:auto;
+	border-radius:10px;
+}
+
+/*CallToAction Area*/
+.calltoaction_area {
+  background: rgba(0, 0, 0, 0) url("images/content.png") repeat-x scroll 0 0;  
+	border-radius:10px;
+}
+.calltoaction {
+  padding: 19px 16px 18px;
+}
+.singlecalltoaction {
+  float: left;
+  line-height: 1.2;
+  padding-right: 17px;
+  width: 314px;
+}
+.singlecalltoaction:last-child {
+	padding-right:0;
+	width:300px;
+}
+.firstaction {
+	width:260;
+}
+.singlecalltoaction h1{
+	font-size:36px;
+	color:#000;
+}
+.singlecalltoaction p {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+/*Promotion Area*/
+.promotion_area{}
+.promotion{
+	
+}
+.singlepromotion {
+  border-radius: 10px;
+  float: left;
+  height: 127px;
+  margin-right: 3px;
+  margin-top: 3px;
+  width: 230px;
+  position:relative;
+}
+.singlepromotion h2 {
+  bottom: 10px;
+  color: #fff;
+  font-size: 18px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  width: 230px;
+}
+/*.singlepromotion h2 {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 75px;
+  text-align: center;
+  bottom:10px;
+}*/
+.singlepromotion:first-child {
+	margin-left:5px;
+}
+.singlepromotion:last-child {
+	margin-right:5px;
+}
+.promo_one {
+	background:url(images/promo_image1.png) no-repeat scroll 0 0;
+	
+}
+.promo_two {
+	background:url(images/promo_image2.png) no-repeat scroll 0 0;
+}
+.promo_three {
+	background:url(images/promo_image3.png) no-repeat scroll 0 0;
+}
+.promo_four {
+	background:url(images/promo_image4.png) no-repeat scroll 0 0;
+}
+.promo_two h2 {
+  /*margin-top: 95px;*/
+  /*margin-left:70px;*/
+}
+/*Footer Area*/
+.footer_area {
+  background: rgba(0, 0, 0, 0) url("images/footer.png") repeat-x scroll 0 0;
+  margin: 3px -10px;
+}
+.footer{
+	padding:13px 15px;
+}
+.footer p{
+	text-align:center;
+	color:#000;
+	font-size:12px;
+	padding-bottom:5px;
+}
+.footer ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+}
+.footer ul li{
+	display:inline-block;
+}
+.footer ul li a {
+  color: #000;
+  display: block;
+  font-size: 12px;
+  padding: 8px 10px 5px;
+  text-decoration: none;
+}
